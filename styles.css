@@ -1,0 +1,60 @@
+* {
+    font-family: Tahoma, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 36px;
+    color: maroon;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.desc, ul, ol {
+    width: 700px;
+}
+
+h1, h2 {
+    color: maroon;
+    width: 300px;
+}
+
+h1, h2, .desc {
+    text-align: center;
+}
+
+h1, h2, .desc, ul, ol, img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links {
+    width: 500px;
+    margin-top: 32px;
+    border: solid maroon 2px;
+}
+
+.home-button {
+    padding: 4px;
+}
+
+h1, h2, ul, ol, .desc, .home-button {
+    background-color: bisque;
+}
+
+a:link {
+    color: darkolivegreen;
+}
+
+a:visited {
+    color: brown;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    display: block;
+}
